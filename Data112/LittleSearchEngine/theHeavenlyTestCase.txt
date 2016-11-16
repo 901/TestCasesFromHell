@@ -1,0 +1,6 @@
+avesta.txt
+genesis1.txt
+gita.txt
+guruGranthSahib.txt
+quran.txt
+shemot.txt
