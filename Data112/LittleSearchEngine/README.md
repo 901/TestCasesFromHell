@@ -8,18 +8,18 @@ Yes. These are seriously the testcases. Religious texts offer an interesting var
 
 This assumes that you have a working driver. Since one is not provided with the assignment, one is not provided here. All that is noted is the first keyword, the second keyword, and the list of documents produced by the use of Linux tools (detailed below). That said, this maybe imperfect, so if you have a legitimate disagreement, please let us know. Enjoy (some of these are genuinely surprising)!
 
-Keyword 1 | Keyword 2 | Result list
---- | --- | ---
-Israel | Holy | shemot.txt, avesta.txt, quran.txt, guruGranthSahib.txt, gita.txt
-God | Israel | quran.txt, shemot.txt, gita.txt, guruGranthSahib.txt, genesis1.txt
-God | created | quran.txt, avesta.txt, shemot.txt, gita.txt, guruGranthSahib.txt
-Persia | rain | quran.txt, gita.txt, avesta.txt, genesis1.txt
-Persia | knife | avesta.txt
-light | knife | gita.txt, quran.txt, guruGranthSahib.txt, avesta.txt, shemot.txt
-love | war | quran.txt, gita.txt, guruGranthSahib.txt, avesta.txt, shemot.txt
-knife | noon | null
-moon | noon | guruGranthSahib.txt, gita.txt, avesta.txt _order may differ - all should have a frequency of 1_
-river | harvest | avesta.txt, shemot.txt, quran.txt, gita.txt, guruGranthSahib.txt
+Keyword 1 | Keyword 2 | Result list | Notes
+--- | --- | --- | ---
+Israel | Holy | shemot.txt, avesta.txt, quran.txt, guruGranthSahib.txt, gita.txt | _genesis1.txt may appear instead of gita.txt_
+God | Israel | quran.txt, shemot.txt, gita.txt, guruGranthSahib.txt, genesis1.txt | 
+God | created | quran.txt, avesta.txt, shemot.txt, gita.txt, guruGranthSahib.txt | 
+Persia | rain | quran.txt, genesis1.txt | _order may vary_
+Persia | knife | null | _nothing worked here_
+light | knife | guruGranthSahib.txt, quran.txt, gita.txt, genesis1.txt, avesta.txt | _quran.txt and gita.txt could be swapped as can genesis1.txt and avesta.txt_
+love | war | gita.txt, guruGranthSahib.txt, quran.txt, genesis1.txt |
+knife | noon | null |
+moon | noon | gita.txt, avesta.txt | _order may differ - all should have a frequency of 1_
+river | harvest | avesta.txt, shemot.txt, gita.txt, quran.txt, guruGranthSahib.txt
 
 ###The Testing Tool Used
 
