@@ -1,0 +1,23 @@
+def txt_py(path):
+    def convert_line(ln):
+        if len(ln.split(' ')) == 2:
+            return ln.replace(' ', '=')
+        else:
+            toks = ln.split(' ')
+            vals = map(lambda x: x.split(','), toks[2:])
+            return toks[0] + '=list()\n' + '\n'.join('{0}[{1}] = {2}'.format(toks[0], i[0][1:], i[1][:-1]) for i in vals)
+    
+    with open(path) as f:
+        return '\n'.join(map(convert_line, f))
+
+def eval_1_input(inp):
+    return eval(inp + input("Enter your expression > "))
+
+def main():
+    print("This is very bare-bones. Press Control-C to quit.")
+    pref = txt_py(input("Enter the path to the input file > "))
+    while True:
+        eval_1_input(pref)
+
+if __name__ == "__main__":
+    main()
