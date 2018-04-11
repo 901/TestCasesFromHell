@@ -16,7 +16,7 @@ God | created | quran.txt, avesta.txt, shemot.txt, gita.txt, guruGranthSahib.txt
 Persia | rain | quran.txt, genesis1.txt | _order may vary_
 Persia | knife | null | _nothing worked here_
 light | knife | guruGranthSahib.txt, quran.txt, gita.txt, genesis1.txt, avesta.txt | _quran.txt and gita.txt could be swapped as can genesis1.txt and avesta.txt_
-love | war | gita.txt, guruGranthSahib.txt, quran.txt, genesis1.txt |
+love | war | gita.txt, guruGranthSahib.txt, quran.txt, genesis1.txt, shemot.txt |
 knife | noon | null |
 moon | noon | gita.txt, avesta.txt | _order may differ - all should have a frequency of 1_
 river | harvest | avesta.txt, shemot.txt, gita.txt, quran.txt, guruGranthSahib.txt
